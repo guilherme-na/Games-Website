@@ -214,11 +214,13 @@ nav ul li a:hover {
 /*Noticias*/
 
 .flex-container-notices h1 {
-    background-color: #EEE;
+    background-color:#f1fcfc;
     color: black;
     text-align: center;
+    width: 400px;
     
 }
+
 
 .flex-container-notices {
 
@@ -230,15 +232,21 @@ margin-bottom: 90px;
 display: flex;
 justify-content: flex-start;
 flex-wrap: wrap;
+flex-direction: row;
 
 }
 
 
+.streamers img {
+    width: 400px;
+}
+
 .streamers {
-    border: 5px solid black;
+    
     width: 400px;
     margin-left: 40px;
-    background-color: #EEE;
+    height: 830px;
+    background-color: #f1fcfc;
     -webkit-border-radius: 3px solid black;
     -moz-border-radius: 3px solid black;
     -ms-border-radius: 3px solid black;
@@ -249,4 +257,13 @@ flex-wrap: wrap;
     text-align: center;
     margin: 15px;
     color: black;
+}
+
+.streamers a {
+    background-color: #FFB320;
+    padding: 15px;
+    margin: 135px;
+    left: 150px;
+    color: #eee;
+    font-size: 1.2em;
 }
