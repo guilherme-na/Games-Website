@@ -211,3 +211,17 @@ nav ul li a:hover {
     font-weight: 600;
     margin-left: 750px;
 }
+
+/*Noticias*/
+
+.flex-container-notices h1 {
+    color: black;
+    text-align: ;
+    
+}
+
+.flex-container-notices {
+background-color: #EEE;
+min-width: 1000px;
+min-height: 700px;
+}
