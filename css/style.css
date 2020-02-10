@@ -185,9 +185,8 @@ nav ul li a:hover {
 .game-type-boxes {
     
     padding: 0;
-    background: url("../img/shadow.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../img/shadow.jpg") top center no-repeat;
+    
     background-size: cover;
     height:700px;
     background-size: 1700px 800px;
@@ -215,13 +214,39 @@ nav ul li a:hover {
 /*Noticias*/
 
 .flex-container-notices h1 {
+    background-color: #EEE;
     color: black;
-    text-align: ;
+    text-align: center;
     
 }
 
 .flex-container-notices {
-background-color: #EEE;
+
 min-width: 1000px;
 min-height: 700px;
+margin-left: 90px;
+margin-right: 90px;
+margin-bottom: 90px;
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+
+}
+
+
+.streamers {
+    border: 5px solid black;
+    width: 400px;
+    margin-left: 40px;
+    background-color: #EEE;
+    -webkit-border-radius: 3px solid black;
+    -moz-border-radius: 3px solid black;
+    -ms-border-radius: 3px solid black;
+    -o-border-radius: 3px solid black;
+}
+
+.streamers p {
+    text-align: center;
+    margin: 15px;
+    color: black;
 }
