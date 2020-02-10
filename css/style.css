@@ -104,6 +104,7 @@ nav ul li a:hover {
 /*Hero Styles*/
 .exile-image  {  
     background: url('https://images2.alphacoders.com/935/thumb-1920-935974.jpg') top center no-repeat;
+    background-size: cover;
     height: 820px;
     
 }
@@ -187,7 +188,7 @@ nav ul li a:hover {
     background: url("../img/shadow.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: center;
+    background-size: cover;
     height:700px;
     background-size: 1700px 800px;
     
@@ -208,5 +209,5 @@ nav ul li a:hover {
     padding: 10px 15px;
     font-size: 0.85em;
     font-weight: 600;
-    margin-left: 650px;
+    margin-left: 750px;
 }
