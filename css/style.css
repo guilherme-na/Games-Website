@@ -185,7 +185,7 @@ nav ul li a:hover {
 .game-type-boxes {
     
     padding: 0;
-    background: url("..img/img/shadow.jpg") top center no-repeat;
+    background: url("../img/shadow.jpg") top center no-repeat;
     
     background-size: cover;
     height:700px;
@@ -208,7 +208,7 @@ nav ul li a:hover {
     padding: 10px 15px;
     font-size: 0.85em;
     font-weight: 600;
-    margin-left: 750px;
+    margin-left: 650px;
 }
 
 /*Noticias*/
@@ -224,15 +224,16 @@ nav ul li a:hover {
 
 .flex-container-notices {
 
-min-width: 1000px;
-min-height: 700px;
-margin-left: 90px;
-margin-right: 90px;
-margin-bottom: 90px;
+min-width: 1400px;
+height: 1000px;
 display: flex;
 justify-content: flex-start;
 flex-wrap: wrap;
-flex-direction: row;
+flex-direction:row;
+background: url(../img/wallpaper.jpg) top center no-repeat;
+background-size: cover;
+align-items: center;
+
 
 }
 
@@ -244,7 +245,7 @@ flex-direction: row;
 .streamers {
     
     width: 400px;
-    margin-left: 40px;
+    margin-left: 50px;
     height: 830px;
     background-color: #f1fcfc;
     -webkit-border-radius: 3px solid black;
@@ -267,3 +268,32 @@ flex-direction: row;
     color: #eee;
     font-size: 1.2em;
 }
+
+
+/*Tutorials*/
+
+.tutorials  span{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.tutorials {
+    width: 100%;
+    height: 500px;
+    background: url(../img/background2.jpg) top center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.tutorials img {
+    padding: 0 40px 0;
+    width: 60px;
+    height: 60px;
+    margin-top: 900px;
+    padding-bottom: 50px;
+}
+
