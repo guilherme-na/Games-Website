@@ -184,11 +184,12 @@ nav ul li a:hover {
 
 .game-type-boxes {
     
-    padding: 0;
-    background: url("../img/shadow.jpg") top center no-repeat;
-    background-size: cover;
+    padding: 0 auto;
+    background: url("../img/shadow.jpg") top center no-repeat cover;
+    background-size: cover 1700px 800px;
     height:700px;
-    background-size: 1700px 800px;
+    width: 100%;
+    height: 100%;
     
 }
 
