@@ -1,91 +1,76 @@
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link rel="stylesheet" href="css/reset.css">
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Path of Exile</title>
 </head>
+
 <body>
-    <header>
-        <div class="flex-container">
-            <div class="flex-logo"><a href=""><img src="img/logopathofexile.png" alt=""></a></div>
-       
-        <nav>
-            <ul class="nav-menu-container">
-                <li><a href="">Jogos</a></li>
-                <li><a href="">Noticias</a></li>
-                <li><a href="">Loja</a></li>
+
+    <!--Navigation--> 
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/logopathofexile.png" alt="">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav header--menu">
+                <li class="header__menu header--item">
+                    <a class="header__item header--link" href="">Jogos</a>
+                </li>
+                <li class="header__menu header--item">
+                    <a class="header__item header--link" href="">Noticias</a>
+                </li>
+                <li class="header__menu header--item">
+                    <a class="header__item header--link" href="">Loja</a>
+                </li>
             </ul>
         </nav>
-        <a class="login-register-button" href="">Login/Register</a>
-       </div>
+        <a class="header__buttonLogin" href="">Logar | Deslogar</a>
     </header>
-    <main>
-        <section class="exile-image">
-            <div class="exile-marketing-text">
-                <h1>Lute Junte Com os Exilados, e Batalhe por Oriath!</h1>
-                 <a class="read-more">Read More</a>
-            </div>
-        </section>
-         <section class="latest-news">
-             <div class="flex-container">
-                <h5>Ultimas Noticias</h5>
-                <div class="latest-news-container">
-                    <span class="badge-new">New</span>
-                    <span class="latest-news-text">O Surgimento das Ascendency para o Shadow, confira!</span>
-                </div>
-            </div>
-             </div> 
-         </section>
 
-          <div class="game-type-boxes">
-              <div class="flex-container-text">
-                  <h1>As Novas Expanções Para Shadow! <br>
-                      Shadow, Assassin e Saboteur
-                  </h1>
-                  <a class="read-more-ascendency">Read More</a>
-              </div>
-          </div>
-
-          <section class="flex-container-notices">
-            
-              <div class="streamers">
-                  <h1>Revelação Surpreende!</h1>
-                  <center> <img src="img/noticias/mathil.jpg" alt=""></center>
-                 <p>O Streamer ''Mathil'' <br> confirmou hoje, que terá Path of Exile 4 em 2050! <br>
-                a noticia já se espalhou em todo reddit do POE, a GGG não confirmou esses rumores, para mais ler completo <br>
-            clique aqui em baixo.</p>
-               <a  class ="read-more-1" href="">Read More</a>
-              </div>
-
-              <div class="streamers">
-                <h1>A Ascendecy Mais Forte Atualmente!</h1>
-                <center> <img src="img/noticias/necromancer.jpg" alt=""></center>
-               <p>Necromancer em patch's recentes acabou levando um re-work e atualmente está abusurdamente forte, fazendo todo
-                   conteudo do jogo com pouco investimento, será que a GGG irá nerfá-la ao ponto de todo mundo abandoná-la novamente?
-               </p>
-             <a  class ="read-more-1" href="">Read More</a>
-            </div>
-             
-            <div class="streamers">
-                <h1>Grupo Path of Exile Brasil Atinge 15k!</h1>
-                <center> <img src="img/noticias/noticias2.jpg" alt=""></center>
-               <p> o grupo Path of Exile Brasil atingiu recentemente 15k de Membros, parabéns a todos!
-               </p>
-             <a  class ="read-more-1" href="">Read More</a>
-            </div>
-          </section>
-          
-           <section class="tutorials">  
  
-                     <footer>
-                        <span class="footer-create">create website by: Guilherme Noronha Araújo</span>
-                    </footer> 
-           </section>
-         
+<!--Introduction-->
 
-    </main>
+<figure class="figure">
+  <h1 class="figure--title">Lute junte com os exilados <br>na batalha por Oriath!</h1>
+  <a class="figure__buttonRead" href="">Read More</a>
+</figure>
+
+
+<!--Ultimas Noticias-->
+
+ <section class="section">
+<div class="section__lastNotices">
+<h1 class="section__titleNotices">Ultimas Noticias</h1>
+</div>
+<div class="section__boxNotices">
+<h1 class="section__titleLast">Novidades da nova Liga que estará vindo em Março de 2020!</h1>
+</div>
+ </section>
+   
+<!--Artigos-->
+ 
+<article class="article">
+<h1 class="article__title">A nova liga estará confirmada <br>em 13/03/2020 fique atentos! </h1>
+<a  class="article__buttonRead" href="">Read More</a>
+</article>
+
+<main class="main">
+<div class="main__box">
+<img class="main__img" src="" alt="">
+<h1 class="main__title"></h1>
+<p class="main__text"></p>
+</div>
+</main>
+
+<footer class="footer">
+<h1>create website by: Guilherme Noronha Araújo</h1>
+</footer>
+
 </body>
 </html>
