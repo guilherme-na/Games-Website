@@ -1,0 +1,128 @@
+$button-color: #FFB320;
+$text-color: #2a7886;
+$text-primary: #fafafa;
+$color-secondary: #000000;
+
+ul,
+li,
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style: none;
+
+}
+
+/*Navigation Bar*/
+
+.header__logo img {
+    width: 100px;
+    height: 70px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #231903;
+    align-items: center;
+    border-bottom: 3px solid $button-color;
+
+    .header--menu {
+        display: flex;
+
+        .header--item {
+            padding: 0 20px;
+        }
+    }
+
+    .header--link:hover {
+        color: $button-color;
+    }
+}
+
+.header__buttonLogin {
+    padding: 15px;
+    background-color: $button-color;
+    border-radius: 200px;
+
+
+}
+
+/*Introduction*/
+
+.figure {
+    background: url(../img/wallpaperpoe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.figure--title {
+    color: $text-primary;
+    font-size: 5em;
+    text-align: center;
+    margin-top: -0;
+
+}
+
+.figure__buttonRead {
+    background-color: $button-color;
+    padding: 15px;
+    border-radius: 2px;
+    margin-left: 45%;
+}
+
+/*Ultimas Noticias*/
+
+.section {
+    display: flex;
+
+}
+
+
+.section__lastNotices {
+    width: 300px;
+    background-color: $button-color;
+}
+
+.section__boxNotices {
+    padding: 0 20px;
+    width: 100%;
+    background-color: $color-secondary;
+    color: white;
+
+}
+
+
+
+/*League*/
+
+.article {
+    background: url(../img/delirium.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.article__title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+    color: $text-color;
+    font-size: 4.50em;
+}
+
+.article__buttonRead {
+    background-color: $button-color;
+    padding: 15px;
+    border-radius: 2px;
+    margin-left: 45%;
+
+
+}
