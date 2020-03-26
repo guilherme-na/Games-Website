@@ -1,296 +1,120 @@
-/*Basic Reset*/
-
-body {
-    font-family: 'helvetica', 'sans-serif';
-    margin: 0;
-}
-
-
-h1, h2, h3, h4, h5 {
-    line-height: 1.5;
-    font-weight: 300;
-    margin: 0.5em 0;
-    color: White;
-    font-weight: bold;
-}
-
-h1 {
-    font-size: 2.5em;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.6em;
-}
-
-h4 {
-    font-size: 1.4em;
-}
-
-h5 {
-    font-size: 1.2em;
-}
-
+ul,
+li,
 a {
-    text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  list-style: none;
 }
-
-p, label, strong {
-    line-height: 2;
-    font-size: 0.85em;
-    font-weight: 300;
-}
-
-
 
 /*Navigation Bar*/
-
-.flex-container {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding:0 10px;
-    justify-content: space-between;
-    align-items: center;
+.header__logo img {
+  width: 100px;
+  height: 70px;
 }
 
-header {
-    background-color: #131313;
-    padding: 5px 0;
-    position: relative;
-    border-bottom: 1px solid #FFB320;
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #231903;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 3px solid #FFB320;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0 0;
+.header .header--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-nav ul li {
-    display: inline-block;
-    font-size: 1em;
-    margin: 0 18px;
+.header .header--menu .header--item {
+  padding: 0 20px;
 }
 
-nav ul li a {
-    color: #EEE;
-    font-weight: 600;
+.header .header--link:hover {
+  color: #FFB320;
 }
 
-nav ul li a:hover {
-    color: #FFB320;
+.header__buttonLogin {
+  padding: 15px;
+  background-color: #FFB320;
+  border-radius: 200px;
 }
 
-.login-register-button {
-    background-color: #FFB320;
-    color: #131313;
-    border-radius: 20px;
-    padding: 10px 15px;
-    font-size: 0.85em;
-    font-weight: 600;
+/*Introduction*/
+.figure {
+  background: url(../img/wallpaperpoe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
 }
 
-.flex-logo img {
-    max-width: 100%;
-    height: 60px;
-    width: 90px;
+.figure--title {
+  color: #fafafa;
+  font-size: 5em;
+  text-align: center;
+  margin-top: -0;
 }
 
-
-/*Hero Styles*/
-.exile-image  {  
-    background: url('https://images2.alphacoders.com/935/thumb-1920-935974.jpg') top center no-repeat;
-    background-size: cover;
-    height: 820px;
-    
-}
-    
-
-.exile-marketing-text {
-    max-width: 1200px;
-    margin: -30px auto 0;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    right: 0;
-    padding: 0 20px;
+.figure__buttonRead {
+  background-color: #FFB320;
+  padding: 15px;
+  border-radius: 2px;
+  margin-left: 45%;
 }
 
-
-.read-more{
-    background-color: pink;
-    color: #131313;
-    border-radius: 20px;
-    padding: 10px 15px;
-    font-size: 0.85em;
-    font-weight: 600;
-    
+/*Ultimas Noticias*/
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.exile-marketing-text .read-more button{
-    background-color: #ff7c7c;
-    border-radius: 20px;
-    font-weight: bold;
-    padding: 25px 0;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+.section__lastNotices {
+  width: 300px;
+  background-color: #FFB320;
 }
 
-/*Latest-news*/
-
-.latest-news .flex-container {
-    justify-content: flex-start;
-    max-width: 100%;
-    padding: 0;
+.section__boxNotices {
+  padding: 0 20px;
+  width: 100%;
+  background-color: #000000;
+  color: white;
 }
 
-.latest-news .flex-container h5 {
-    flex-basis: 25%;
-    background-color: #FFB320;
-    padding: 25px;
-    margin: 0;
-    text-align: right;
-    color: #eee;
-    font-size: 1.2em;
+/*League*/
+.article {
+  background: url(../img/delirium.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
 }
 
-.latest-news-container {
-    background-color: #131313;
-    position: relative;
-    flex-basis: 75%;
-    padding: 31px;
+.article__title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+  color: #2a7886;
+  font-size: 4.50em;
 }
 
-
-
-.latest-news-text {
-    color: white;
-    font-weight: bold;
+.article__buttonRead {
+  background-color: #FFB320;
+  padding: 15px;
+  border-radius: 2px;
+  margin-left: 45%;
 }
-
-.latest-news-text .badge {
-    color: white;
-    font-weight: bold;
-}
-
-
-/*ASscendecy*/
-
-.game-type-boxes {
-width: 100%;
-height: 100%;
-padding: 0;
-background-size: cover;
-background: url('../img/shadow.jpg') no-repeat top center;
-}
-
-.flex-container-text h1 {
-    text-align: center;
-    margin-top: -4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
- .read-more-ascendency {
-    background-color: #FFB320;
-    color: #131313;
-    border-radius: 20px;
-    padding: 10px 15px;
-    font-size: 0.85em;
-    font-weight: 600;
-    margin-left: 650px;
-}
-
-/*Noticias*/
-
-.flex-container-notices h1 {
-    background-color:#f1fcfc;
-    color: black;
-    text-align: center;
-    width: 400px;
-    
-}
-
-
-.flex-container-notices {
-
-min-width: 1400px;
-height: 1000px;
-display: flex;
-justify-content: flex-start;
-flex-wrap: wrap;
-flex-direction:row;
-background: url(../img/wallpaper.jpg) top center no-repeat;
-background-size: cover;
-align-items: center;
-
-
-}
-
-
-.streamers img {
-    width: 400px;
-}
-
-.streamers {
-    
-    width: 400px;
-    margin-left: 50px;
-    height: 830px;
-    background-color: #f1fcfc;
-    -webkit-border-radius: 3px solid black;
-    -moz-border-radius: 3px solid black;
-    -ms-border-radius: 3px solid black;
-    -o-border-radius: 3px solid black;
-}
-
-.streamers p {
-    text-align: center;
-    margin: 15px;
-    color: black;
-}
-
-.streamers a {
-    background-color: #FFB320;
-    padding: 15px;
-    margin: 135px;
-    left: 150px;
-    color: #eee;
-    font-size: 1.2em;
-}
-
-
-/*Tutorials*/
-
-.tutorials  span{
-    color: white;
-    font-weight: bold;
-    
-}
-
-.tutorials {
-    width: 100%;
-    height: 500px;
-    background: url(../img/background2.jpg) top center no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-
-.tutorials img {
-    padding: 0 40px 0;
-    width: 60px;
-    height: 60px;
-    margin-top: 900px;
-    padding-bottom: 50px;
-}
-
+/*# sourceMappingURL=style.css.map */
