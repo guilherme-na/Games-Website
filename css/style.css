@@ -104,6 +104,7 @@ a {
   width: 100%;
   height: 700px;
   margin: 0 auto;
+  opacity: 0.90;
 }
 
 .article__title {
